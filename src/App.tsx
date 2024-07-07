@@ -20,17 +20,7 @@ export default function App() {
                 </div>
 
                 <div
-                    className="row-start-1 col-start-2 card">
-                    <div
-                        className="border-red-500 shadow-xl shadow-red-800 circle">
-                        <p className="text-gray-300 mb-2">红灯还需要等待 (秒)</p>
-                        <p className="text-7xl font-bold mb-1">15</p>
-                        <p className="text-gray-300">前方红灯</p>
-                    </div>
-                </div>
-
-                <div
-                    className="row-start-2 col-start-2 card">
+                    className="row-start-1 row-span-2 col-start-2 card">
                     <div
                         className="border-red-500 shadow-xl shadow-red-800 circle">
                         <p className="text-gray-300 mb-2">距离红绿灯还有</p>
